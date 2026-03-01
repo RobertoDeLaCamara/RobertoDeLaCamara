@@ -44,3 +44,22 @@ All projects run on a self-hosted infrastructure: multi-node network (2 PCs + 3 
 **ML/AI** &nbsp; `TensorFlow` `PyTorch` `scikit-learn` `Prophet` `LangGraph` `LangChain` `ChromaDB`
 
 **Infrastructure** &nbsp; `Docker` `Kubernetes` `Jenkins` `Prometheus` `Grafana` `SonarQube` `FastAPI`
+
+---
+
+### Contributing
+
+All projects are open source and welcome contributions. Whether you're fixing a bug, adding a feature, or improving documentation — I'd be happy to collaborate.
+
+**Good first issues** — great starting points if you're new to a project:
+
+| Project | Open issues |
+|---------|-------------|
+| [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+| [HopfieldSPP](https://github.com/RobertoDeLaCamara/HopfieldSPP/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+| [Research-Agent](https://github.com/RobertoDeLaCamara/Research-Agent/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+| [Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
+
+Looking for something more challenging? Check out issues labeled [`help wanted`](https://github.com/search?q=user%3ARobertoDeLaCamara+label%3A%22help+wanted%22+is%3Aissue+is%3Aopen&type=issues) across all repos.
