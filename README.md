@@ -8,6 +8,16 @@ Lifelong AI/ML engagement since my university thesis on Hopfield Neural Networks
 
 ---
 
+### Network Security & Intrusion Detection
+
+Three generations of ML-based intrusion detection, each building on the previous:
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System)** | Flagship IDS: 4 detection engines (RF, Isolation Forest, LSTM Autoencoder, rules), ensemble scoring with adaptive weights, FastAPI with JWT/RBAC, GeoIP enrichment, alert correlation. Jenkins CI/CD. | `Python` `PyTorch` `FastAPI` `Scapy` `Docker` `Jenkins` |
+| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector) | Triple-engine ensemble: Isolation Forest + LSTM Autoencoder + rule-based. Scapy capture, 18 per-IP features. | `Python` `PyTorch` `Scapy` `MLflow` `Streamlit` |
+| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS) | Full-stack ML intrusion detection. Random Forest + Stacking on CIC-IDS2017 (78 features), real-time WebSocket dashboard. | `Python` `FastAPI` `PostgreSQL` `scikit-learn` `MLflow` |
+
 ### Neural Network Research
 
 | Project | Description | Stack |
@@ -15,19 +25,11 @@ Lifelong AI/ML engagement since my university thesis on Hopfield Neural Networks
 | [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver) | Assignment problem solver using Hopfield networks. Hybrid microservices: Go/Gin API gateway + Python/Flask solver. | `Go` `Python` `Docker` `Nginx` `Jenkins` |
 | [HopfieldSPP](https://github.com/RobertoDeLaCamara/HopfieldSPP) | Shortest path solver via Hopfield network energy minimization. Three model versions scaling to 5000+ nodes with attention mechanisms. | `Python` `TensorFlow` `FastAPI` |
 
-### Network Security & Intrusion Detection
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS) | Full-stack ML intrusion detection system. Random Forest + Stacking on CIC-IDS2017 (78 features), real-time WebSocket dashboard. | `Python` `FastAPI` `PostgreSQL` `scikit-learn` `MLflow` |
-| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector) | Triple-engine ensemble: Isolation Forest + LSTM Autoencoder + rule-based. Scapy capture, 18 per-IP features. | `Python` `PyTorch` `Scapy` `MLflow` `Streamlit` |
-| [Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System) | Most comprehensive IDS: 4 detection engines, ensemble scoring, FastAPI with JWT/RBAC, GeoIP, alert correlation, adaptive weights. | `Python` `PyTorch` `FastAPI` `Scapy` `Docker` |
-
 ### AI Agents
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [Research-Agent](https://github.com/RobertoDeLaCamara/Research-Agent) | Autonomous research agent with 5 personas, 10 parallel sources, multi-source RAG, iterative re-planning, multi-format export. | `Python` `LangGraph` `ChromaDB` `Streamlit` |
+| [Research-Agent](https://github.com/RobertoDeLaCamara/Research-Agent) | Autonomous research agent with 5 personas, 10 parallel sources, multi-source RAG, iterative re-planning, multi-format export. | `Python` `LangGraph` `ChromaDB` `Ollama` `Streamlit` |
 
 ---
 
@@ -41,7 +43,7 @@ All projects run on a self-hosted infrastructure: multi-node network (2 PCs + 3 
 
 **Languages** &nbsp; `Python` `Go` `Rust`
 
-**ML/AI** &nbsp; `TensorFlow` `PyTorch` `scikit-learn` `Prophet` `LangGraph` `LangChain` `ChromaDB`
+**ML/AI** &nbsp; `TensorFlow` `PyTorch` `scikit-learn` `Prophet` `MLflow` `LangGraph` `LangChain` `ChromaDB` `Ollama`
 
 **Infrastructure** &nbsp; `Docker` `Kubernetes` `Jenkins` `Prometheus` `Grafana` `SonarQube` `FastAPI`
 
@@ -49,17 +51,4 @@ All projects run on a self-hosted infrastructure: multi-node network (2 PCs + 3 
 
 ### Contributing
 
-All projects are open source and welcome contributions. Whether you're fixing a bug, adding a feature, or improving documentation — I'd be happy to collaborate.
-
-**Good first issues** — great starting points if you're new to a project:
-
-| Project | Open issues |
-|---------|-------------|
-| [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-| [HopfieldSPP](https://github.com/RobertoDeLaCamara/HopfieldSPP/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-| [Research-Agent](https://github.com/RobertoDeLaCamara/Research-Agent/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-| [Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | `good first issue` |
-
-Looking for something more challenging? Check out issues labeled [`help wanted`](https://github.com/search?q=user%3ARobertoDeLaCamara+label%3A%22help+wanted%22+is%3Aissue+is%3Aopen&type=issues) across all repos.
+All projects are open source and welcome contributions. Check out issues labeled [`good first issue`](https://github.com/search?q=user%3ARobertoDeLaCamara+label%3A%22good+first+issue%22+is%3Aissue+is%3Aopen&type=issues) or [`help wanted`](https://github.com/search?q=user%3ARobertoDeLaCamara+label%3A%22help+wanted%22+is%3Aissue+is%3Aopen&type=issues) across all repos.
