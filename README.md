@@ -14,15 +14,15 @@ Three generations of ML-based intrusion detection, each building on the previous
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| **[Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System)** | Flagship IDS: 4 detection engines (RF, Isolation Forest, LSTM Autoencoder, rules), ensemble scoring with adaptive weights, FastAPI with JWT/RBAC, GeoIP enrichment, alert correlation. Jenkins CI/CD. | `Python` `PyTorch` `FastAPI` `Scapy` `Docker` `Jenkins` |
-| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector) | Triple-engine ensemble: Isolation Forest + LSTM Autoencoder + rule-based. Scapy capture, 18 per-IP features. | `Python` `PyTorch` `Scapy` `MLflow` `Streamlit` |
-| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS) | Full-stack ML intrusion detection. Random Forest + Stacking on CIC-IDS2017 (78 features), real-time WebSocket dashboard. | `Python` `FastAPI` `PostgreSQL` `scikit-learn` `MLflow` |
+| **[Cognitive-Intrusion-Detection-System](https://github.com/RobertoDeLaCamara/Cognitive-Intrusion-Detection-System)** | Flagship IDS: 4 detection engines (RF, Isolation Forest, LSTM Autoencoder, rules), ensemble scoring with adaptive weights, FastAPI with JWT/RBAC, GeoIP enrichment, alert correlation. CI/CD. | `Python` `PyTorch` `FastAPI` `Scapy` `Docker` `CI/CD` |
+| [CognitiveNetworkAnomalyDetector](https://github.com/RobertoDeLaCamara/CognitiveNetworkAnomalyDetector) | Triple-engine ensemble: Isolation Forest + LSTM Autoencoder + rule-based. Scapy capture, 18 per-IP features. | `Python` `PyTorch` `Scapy` `ML Tracking` `Streamlit` |
+| [ML-IDS](https://github.com/RobertoDeLaCamara/ML-IDS) | Full-stack ML intrusion detection. Random Forest + Stacking on CIC-IDS2017 (78 features), real-time WebSocket dashboard. | `Python` `FastAPI` `PostgreSQL` `scikit-learn` `ML Tracking` |
 
 ### Neural Network Research
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver) | Assignment problem solver using Hopfield networks. Hybrid microservices: Go/Gin API gateway + Python/Flask solver. | `Go` `Python` `Docker` `Nginx` `Jenkins` |
+| [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver) | Assignment problem solver using Hopfield networks. Hybrid microservices: Go/Gin API gateway + Python/Flask solver. | `Go` `Python` `Docker` `Nginx` `CI/CD` |
 | [HopfieldSPP](https://github.com/RobertoDeLaCamara/HopfieldSPP) | Shortest path solver via Hopfield network energy minimization. Three model versions scaling to 5000+ nodes with attention mechanisms. | `Python` `TensorFlow` `FastAPI` |
 
 ### AI Agents
@@ -35,7 +35,7 @@ Three generations of ML-based intrusion detection, each building on the previous
 
 ### Home Lab
 
-All projects run on a self-hosted infrastructure: multi-node network (2 PCs + 3 Raspberry Pis) with Jenkins CI/CD, private Docker registry, Gitea, SonarQube, Prometheus + Grafana, and MinIO backups. Every project follows production-grade practices — automated testing, containerized deployments, and continuous integration.
+All projects run on a self-hosted infrastructure: multi-node network with automated CI/CD, private Docker registry, Git server, code quality analysis, centralized monitoring, and distributed backups. Every project follows production-grade practices — automated testing, containerized deployments, and continuous integration.
 
 ---
 
@@ -43,9 +43,9 @@ All projects run on a self-hosted infrastructure: multi-node network (2 PCs + 3 
 
 **Languages** &nbsp; `Python` `Go` `Rust`
 
-**ML/AI** &nbsp; `TensorFlow` `PyTorch` `scikit-learn` `Prophet` `MLflow` `LangGraph` `LangChain` `ChromaDB` `Ollama`
+**ML/AI** &nbsp; `TensorFlow` `PyTorch` `scikit-learn` `Prophet` `ML Tracking` `LangGraph` `LangChain` `ChromaDB` `Ollama`
 
-**Infrastructure** &nbsp; `Docker` `Kubernetes` `Jenkins` `Prometheus` `Grafana` `SonarQube` `FastAPI`
+**Infrastructure** &nbsp; `Docker` `Kubernetes` `CI/CD` `Monitoring Service` `Visualization Service` `Quality Analysis` `FastAPI`
 
 ---
 
