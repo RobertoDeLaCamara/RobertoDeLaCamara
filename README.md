@@ -22,6 +22,7 @@ Three generations of ML-based intrusion detection, each building on the previous
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [HopfieldAttention](https://github.com/RobertoDeLaCamara/HopfieldAttention) | From Hopfield Networks to Transformers: 7 articles tracing the mathematical bridge from associative memory to modern attention. Interactive Streamlit demo. | `Python` `Streamlit` `HuggingFace Spaces` |
 | [HopfieldAssigmentProblemSolver](https://github.com/RobertoDeLaCamara/HopfieldAssigmentProblemSolver) | Assignment problem solver using Hopfield networks. Hybrid microservices: Go/Gin API gateway + Python/Flask solver. | `Go` `Python` `Docker` `Nginx` `CI/CD` |
 | [HopfieldSPP](https://github.com/RobertoDeLaCamara/HopfieldSPP) | Shortest path solver via Hopfield network energy minimization. Three model versions scaling to 5000+ nodes with attention mechanisms. | `Python` `TensorFlow` `FastAPI` |
 
